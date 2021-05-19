@@ -18,6 +18,10 @@ app.get('/', function(req, res) {
 	res.render('index');
 });
 
+app.get('/api',function(req,res){
+  res.end("hello world!")
+  });
+
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
 });
