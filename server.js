@@ -18,7 +18,7 @@ var port = process.env.PORT || 8080;
 // 	res.render('index');
 // });
 
-app.get('/api',function(req,res){
+app.get('/',function(req,res){
   res.end("hello world!")
   });
 
